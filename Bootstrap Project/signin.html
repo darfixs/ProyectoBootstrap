@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Batman Movies Collection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="text-white">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">BATMAN COLLECTION</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="collections.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link btn-batman" href="signin.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-batman active" href="signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5 pt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="signup-card p-4 shadow-lg">
+                    <div class="text-center mb-5">
+                        <img src="https://raw.githubusercontent.com/darfixs/ProyectoBootstrap/main/DISPLAY1.gif"
+                            alt="Batman Welcome"
+                            class="bat-logo img-fluid rounded-4 border border-2 border-warning w-75">
+                    </div>
+
+                    <form class="needs-validation" novalidate>
+                        <div class="mb-4">
+                            <label class="form-label text-warning text-uppercase fw-bold small">Email</label>
+                            <div class="input-group">
+                                <input type="email" class="form-control bg-dark text-white border-warning"
+                                    placeholder="bruce@wayneenterprises.com" required>
+                                <span class="input-group-text bg-dark border-warning">
+                                    <i class="fas fa-envelope text-warning"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label text-warning text-uppercase fw-bold small">Bat Alias</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control bg-dark text-white border-warning"
+                                    placeholder="The Dark Knight" required>
+                                <span class="input-group-text bg-dark border-warning">
+                                    <i class="fas fa-mask text-warning"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label text-warning text-uppercase fw-bold small">Secret Code</label>
+                            <div class="input-group">
+                                <input type="password" class="form-control bg-dark text-white border-warning"
+                                    placeholder="••••••••" required>
+                                <span class="input-group-text bg-dark border-warning">
+                                    <i class="fas fa-lock text-warning"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn gradient-btn w-100 fw-bold py-2">
+                            <i class="fas fa-user-ninja me-2"></i>Become a Bat Member
+                        </button>
+                    </form>
+
+                    <p class="text-center text-muted mt-4 small">
+                        Already sworn allegiance?
+                        <a href="signin.html" class="text-warning text-decoration-none fw-bold">
+                            Access the Batcave
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark-blue text-warning text-center py-4 footer-batman">
+        <div class="container">
+            <p class="small">2025 Batman Movies Collection. All rights reserved to Jose Darío Alfaro Santos.
+                <a href="https://github.com/darfixs" class="text-warning footer-link text-decoration-none">Github:
+                    @darfixs</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
